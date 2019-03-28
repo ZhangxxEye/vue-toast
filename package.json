@@ -1,6 +1,6 @@
 {
   "name": "@nat/vue-toast",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "ZhangxxEye",
   "license": "MIT",
   "description": "toast提示框vue组件",

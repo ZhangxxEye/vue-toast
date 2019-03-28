@@ -7,7 +7,7 @@ npm install @nat/vue-toast
 ```
 ## 使用
 ```
-import toast from '@51npm-test/vue-toast'
+import toast from '@nat/vue-toast'
 Vue.use(toast)
 this.$toast('出错了.....');
 ```

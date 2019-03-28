@@ -1,5 +1,7 @@
 # vue-toast
-webpack构建的vue组件开发模板
+#### webpack构建的vue组件开发模板
+![](//cdn.51talk.com/apollo/images/bbb0563abe69b5d42be642e2f3801516.png)
+
 ## install
 NPM
 ```

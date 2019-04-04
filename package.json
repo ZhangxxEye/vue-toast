@@ -1,6 +1,6 @@
 {
   "name": "@nat/vue-toast",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "ZhangxxEye",
   "license": "MIT",
   "description": "toast提示框vue组件",
@@ -26,16 +26,6 @@
     "lint-fix": "eslint --fix --ignore-path .gitignore --ext .js,.vue . --ignore-pattern *.demo.*",
     "e2e": "testcafe all e2e/*test* --app \"npm run dev\" --app-init-delay 10000 -S -s screenshots"
   },
-  "lint-staged": {
-    "*.js": "eslint",
-    "*.vue": "eslint"
-  },
-  "peerDependencies": {
-    "vue": "2.x"
-  },
-  "dependencies": {
-    "vue": "^2.5.16"
-  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
@@ -43,7 +33,6 @@
     "@babel/preset-env": "^7.1.0",
     "@hydrant/eslint-config": "^2.0.1",
     "autoprefixer": "^9.4.3",
-    "axios": "^0.18.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^1.0.0",
@@ -73,31 +62,13 @@
     "url-loader": "^1.1.2",
     "vue-loader": "^15.4.2",
     "vue-router": "^3.0.1",
+    "vue": "^2.5.16",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.28.1",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
-  },
-  "eslintConfig": {
-    "parserOptions": {
-      "parser": "babel-eslint",
-      "ecmaVersion": 2017,
-      "sourceType": "module"
-    },
-    "extends": "@hydrant/eslint-config/vue",
-    "rules": {
-      "vue/max-attributes-per-line": "off",
-      "vue/no-use-v-if-with-v-for": "off",
-      "vue/no-unused-components": "off",
-      "vue/component-name-in-template-casing": "off",
-      "vue/singleline-html-element-content-newline": "off",
-      "vue/no-v-html": "off",
-      "vue/require-default-prop": "off",
-      "vue/use-v-on-exact": "off",
-      "vue/multiline-html-element-content-newline": "off"
-    }
   },
   "browserslist": [
     "ie >= 11",

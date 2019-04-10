@@ -19,8 +19,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.6;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     width: 80%;
     min-height: 50px;
